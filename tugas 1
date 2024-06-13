@@ -1,0 +1,39 @@
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+ import java.util.Scanner;
+
+class HelloWorld {
+    public static void main(String[] args) {
+        
+        String a,b;
+        int c,d,e,f,g,h ;
+    
+        a = "PERHITUNGAN PADA JAVA";
+        b = "Robby Zidny";
+        System.out.println(a);
+        System.out.println(b);
+        System.out.println("2311477094");
+        
+        Scanner Keyboard = new Scanner(System.in);
+          System.out.print("INPUT NILAI PERTAMA:");
+          c = Keyboard.nextInt();
+          System.out.print("INPUT NILAI KEDUA:");
+          d = Keyboard.nextInt();
+          
+          // Perhitungan
+          
+          e = c + d;
+          f = c * d;
+          g = c - d;
+          h = c / d;
+          
+          System.out.println("==================");
+          System.out.println("Hasil penjumlahan: "+e);
+          System.out.println("Hasil perkalian: "+f);
+          System.out.println("Hasil pengurangan: "+g);
+          System.out.println("Hasil Pembagian: "+h);
+          
+    }
+}
+
+
