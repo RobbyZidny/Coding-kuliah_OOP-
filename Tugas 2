@@ -1,0 +1,76 @@
+class HelloWorld {
+    public static void main(String[] args) {
+        
+    int x = 3;
+    if ( x == 1){
+        System.out.println("Nilai yang di isi adalah A = " + x );
+    }
+    if ( x == 2){
+        System.out.println("Nilai yang di isi adalah A = " + x );
+    }
+    if ( x == 3){
+        System.out.println("Nilai yang di isi adalah A = " + x );
+    } else {
+        System.out.println("Nilai yang di isi adalah tidak sama semua");
+    }
+    }
+}
+
+DONE EXCUTE OOP JAVA I=ONLINE 
+LINK ; https://www.programiz.com/java-programming/online-compiler/
+
+
+import java.util.Scanner;
+
+public class Pertemuan3 {
+    public static void main(String[] args) {
+        int A, B, C;
+        
+        Scanner keyboard = new Scanner(System.in);
+        
+        System.out.print("Input data penjualan 1 : ");
+        A = keyboard.nextInt();
+        
+        if (A > 1500) {
+            System.out.println("BERHASIL");
+        } else if (A == 1500) {
+            System.out.println("PAS");
+        } else {
+            System.out.println("KURANG PAS");
+        }
+        System.out.println("========================");
+        
+        System.out.print("Input data penjualan 2 : ");
+        B = keyboard.nextInt();
+        
+        if (B > 1500) {
+            System.out.println("BERHASIL");
+        } else if (B == 1500) {
+            System.out.println("PAS");
+        } else {
+            System.out.println("KURANG PAS");
+        }
+        System.out.println("========================");
+        
+        System.out.print("Input data penjualan 3 : ");
+        C = keyboard.nextInt();
+        
+        if (C > 1500) {
+            System.out.println("BERHASIL");
+        } else if (C == 1500) {
+            System.out.println("PAS");
+        } else {
+            System.out.println("KURANG PAS");
+        }
+        System.out.println("========================");
+    }
+}
+
+Done excute : 
+Link : https://www.programiz.com/java-programming/online-compiler/
+
+
+
+
+
+
