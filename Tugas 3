@@ -1,0 +1,47 @@
+import java.util.Scanner;
+
+public class TugasMandiri {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+
+        // Identitas
+        System.out.println("============================================");
+        System.out.println("Nama         : Robby zidny");
+        System.out.println("Nim          : 2311477094");
+        System.out.println("Kelas        : PS112J/JP");
+        System.out.println("Mata Kuliah  : Pemrograman Berorientasi Obyek");
+        System.out.println("============================================");
+        System.out.println();
+        
+        // Tugas Mandiri 1 (Ganjil) - Menghitung Luas Segitiga
+        System.out.println("************************************");
+        System.out.println("*       Tugas Mandiri Ganjil       *");
+        System.out.println("*       Mencari Luas Segitiga      *");
+        System.out.println("************************************");
+        System.out.print("Input nilai Alas    : ");
+        double alas = input.nextDouble();
+        System.out.print("Input nilai Tinggi  : ");
+        double tinggi = input.nextDouble();
+        double luasSegitiga = 0.5 * alas * tinggi;
+        System.out.println("------------------------------------");
+        System.out.println("Jadi Luas Segitiga (L) adalah " + luasSegitiga);
+        System.out.println("************************************");
+        System.out.println();
+        
+        // Tugas Mandiri 2 (Genap) - Menghitung Luas Persegi Panjang
+        System.out.println("************************************");
+        System.out.println("*       Tugas Mandiri Genap        *");
+        System.out.println("* Mencari Luas Persegi Panjang     *");
+        System.out.println("************************************");
+        System.out.print("Input nilai Panjang : ");
+        double panjang = input.nextDouble();
+        System.out.print("Input nilai Lebar   : ");
+        double lebar = input.nextDouble();
+        double luasPersegiPanjang = panjang * lebar;
+        System.out.println("------------------------------------");
+        System.out.println("Jadi Luas Persegi Panjang (L) adalah " + luasPersegiPanjang);
+        System.out.println("************************************");
+        
+        input.close();
+    }
+}
