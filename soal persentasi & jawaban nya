@@ -1,0 +1,83 @@
+soal no 1 beserta penjelasan 
+
+def salam(nama):
+    print(f"Halo, {nama}!")
+
+salam("Budi")
+
+
+penjelasan  : 
+a) import random; random.randint(1, 6)
+Penjelasan:
+Modul random diimpor dengan benar menggunakan import random. Kemudian, fungsi randint(1, 6) digunakan untuk menghasilkan bilangan bulat acak antara 1 dan 6, termasuk kedua batas tersebut (1 dan 6).
+
+b) import random; random.rand(1, 6)
+Penjelasan:
+
+Salah. Fungsi rand() tidak ada dalam modul random. Untuk menghasilkan bilangan bulat acak, kita harus menggunakan randint(), bukan rand().
+Jika menggunakan random.rand(), Python akan mengembalikan error AttributeError: module 'random' has no attribute 'rand'.
+
+c) from random import randint; randint(1, 6)
+Penjelasan:
+
+Benar, tetapi... Pilihan ini juga menghasilkan output yang benar, tetapi cara mengimpor fungsi randint() berbeda. Ini mengimpor fungsi randint secara langsung tanpa perlu menggunakan random. setiap kali memanggil fungsi. Jadi, saat menggunakan randint(1, 6), kita tidak perlu mengetik random.randint(1, 6).
+
+d) import random as r; r.random(1, 6)
+Penjelasan:
+
+Salah. Modul random diimpor sebagai alias r, yang benar. Namun, fungsi random() digunakan dengan cara yang salah. Fungsi random() menghasilkan angka acak float antara 0.0 dan 1.0, bukan bilangan bulat. Jadi, r.random(1, 6) tidak akan menghasilkan angka acak antara 1 dan 6, melainkan error karena random() tidak menerima argumen.
+
+e) import rand; rand.randint(1, 6)
+Penjelasan:
+
+Salah. Modul rand tidak ada di Python. Modul yang benar untuk menghasilkan angka acak adalah random, bukan rand. Jika mencoba menjalankan kode ini, Python akan memberikan error ModuleNotFoundError: No module named 'rand'.
+
+
+2.Modul random digunakan untuk menghasilkan angka acak. Manakah cara yang benar untuk mengimpor modul random dan menggunakan fungsi randint() untuk menghasilkan angka acak antara 1 dan 6?
+
+Pilihan Ganda:
+
+a) import random; random.randint(1, 6)
+b) import random; random.rand(1, 6)
+c) from random import randint; randint(1, 6)
+d) import random as r; r.random(1, 6)
+e) import rand; rand.randint(1, 6)
+Jawaban yang benar:
+a) import random; random.randint(1, 6)
+
+
+a) import random; random.randint(1, 6)
+Benar.
+Ini adalah cara yang benar untuk mengimpor modul random dan menggunakan fungsi randint().
+Fungsi randint(1, 6) akan menghasilkan angka bulat acak antara 1 dan 6, termasuk kedua batas.
+Contoh:
+python
+Salin kode
+import random
+print(random.randint(1, 6))  # Output: bisa berupa 1, 2, 3, 4, 5, atau 6
+
+b) import random; random.rand(1, 6)
+Salah.
+Fungsi rand() tidak ada dalam modul random.
+Untuk menghasilkan angka bulat acak, kita harus menggunakan randint(), bukan rand().
+Menggunakan kode ini akan mengakibatkan error: AttributeError: module 'random' has no attribute 'rand'.
+
+c) from random import randint; randint(1, 6)
+Benar, tetapi tidak sesuai dengan konteks soal.
+Meskipun cara ini benar dan akan menghasilkan angka acak antara 1 dan 6, penggunaan from random import randint tidak sesuai dengan format yang diminta soal.
+Dengan cara ini, kita bisa langsung memanggil randint(1, 6) tanpa prefiks random..
+
+d) import random as r; r.random(1, 6)
+Salah.
+Meskipun modul random diimpor dengan benar, fungsi random() digunakan dengan salah.
+Fungsi random() tidak menerima argumen dan menghasilkan angka acak antara 0.0 dan 1.0.
+Jika kita ingin menggunakan alias r, kita harus menggunakan r.randint(1, 6) untuk menghasilkan angka acak.
+
+e) import rand; rand.randint(1, 6)
+Salah.
+Modul rand tidak ada di Python.
+Hanya modul random yang dapat digunakan untuk menghasilkan angka acak.
+Jika mencoba menjalankan kode ini, Python akan memberikan error: ModuleNotFoundError: No module named 'rand'.
+Kesimpulan:
+Jawaban a) adalah pilihan yang benar dan paling sesuai dengan cara yang tepat untuk mengimpor modul random serta menggunakan fungsi randint() untuk menghasilkan angka acak antara 1 dan 6.
+
